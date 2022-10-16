@@ -5,7 +5,7 @@ console.log(sweety,cutie);
 
 var temp = sweety
 sweety = cutie
-cutie = temp
+           cutie = temp
 console.log("After swap :");
 console.log(sweety,cutie);
 
