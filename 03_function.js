@@ -7,6 +7,7 @@ function harsh(money) {
 }
 var veg = harsh(500);
 console.log(veg);
+console.log(typeof harsh);
 
 
 // function sachin(money){
