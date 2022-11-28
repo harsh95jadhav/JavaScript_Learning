@@ -3,7 +3,7 @@ var totalChar = givenString.length;
 for (let index = 0; index <totalChar; index++) {
     if (index%2==0) {
         var charAt = givenString.charAt(index);
-        console.log(charAt); 
+        //console.log(charAt); 
     }  
 }
 // WAP to just log the vowels from the given string ; a e i o u, A E  I O U 
@@ -46,27 +46,26 @@ for (let index = 0; index <string.length; index++) {
 //Count the total number vowels using includes() for string → “Good Morning IT Champ”
 var countVowels = function(myString) {
     console.log("Count the total number vowels using includes() for string → “Good Morning IT Champ”");
-    //var myString = "Good Morning IT Champ";
+    var myString = "Good Morning IT Champ";
     var vowelsLoweCase = "aeiou";
     var vowelUpperCase = "AEIOU";
     var vowelsCount=0;
     for (let index = 0; index < myString.length; index++) {
        var char =  myString.charAt(index);
        var isLowerAvailable =  vowelsLoweCase.includes(char);
-       var isUpperAvailable =  vowelUpperCase.includes(c
+       var isUpperAvailable =  vowelUpperCase.includes(char);
+    } 
+}      
 console.log("============================");
-function evenPositionedChars(myString){
-    for (let index = 0; index < myString.length; index++) {
+//function evenPositionedChars(myString){
+  //  for (let index = 0; index < myString.length; index++) {
        // console.log(index%2==0);
-       var chh = myString.charAt(index);
-       if (index%2==0 && chh!=" ") {
-          console.log(chh);
-       }
+   //    var chh = myString.charAt(index);
+    //   if (index%2==0 && chh!=" ") {
+     //     console.log(chh);
+     //  }
        //var chh = myString.charAt(index);
         
-    }
-}
-evenPositionedChars("Hard work always pays back");
-
-
-
+   // }
+//}
+//evenPositionedChars("Hard work always pays back")
